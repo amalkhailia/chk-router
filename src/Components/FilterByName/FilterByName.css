@@ -1,0 +1,14 @@
+.inputFilter{
+    width: 400px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    margin-left: 35%;
+
+
+}
+.FilterByName{
+    padding-top: 3%;
+}

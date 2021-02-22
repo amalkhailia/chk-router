@@ -1,0 +1,15 @@
+.App{
+    
+    background-image: url("https://th.bing.com/th/id/Rdb3535be13134f91a13b575c16df3c2d?rik=n%2fds7WrRN5U%2fQQ&riu=http%3a%2f%2fwww.boleyncinemas.com%2fstatic%2fimages%2fboleyncinemas_background.jpg&ehk=Wua%2b3yuJ4XP82ErQZjNh%2fDcHeU59%2bFnY7QFcHwPJi74%3d&risl=&pid=ImgRaw");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+
+}
+.movieApp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
