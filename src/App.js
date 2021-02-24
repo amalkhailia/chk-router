@@ -1,5 +1,4 @@
 import "./App.css";
-import AddTrailer from "./Components/AddTrailer/AddTrailer";
 import MovieApp from "./Components/MovieApp";
 
 
