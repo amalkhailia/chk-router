@@ -9,7 +9,7 @@ import  "./AddTrailer.css";
         <div className="trailer">
             
         <h1>{movies.description}</h1>
-        <ReactPlayer controls url={Movies.trailer} />
+        <ReactPlayer controls url={movies.trailer}  className="video"/>
         <Button variant="dark" onClick={()=>{props.history.push("/")}}>Home</Button>
 
         

@@ -3,3 +3,14 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
+.trailer h1{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 1.9em;
+    font-family: sans-serif;
+    margin: 10% 10%;
+}
+.video{
+margin-left: 30%;
+margin-bottom: 10%;
+}

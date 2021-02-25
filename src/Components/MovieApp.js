@@ -21,11 +21,8 @@ const MovieApp = () => {
   return (
     <div className="App">
       <Switch>
-        <Route exact path="/" component={MovieApp} />
-        <Route path="/AddTrailer" component={AddTrailer} />
-      </Switch>
-
-      <div className="movieApp">
+        <Route exact path="/">   
+        <div className="movieApp">
         <FilterByName setInputSearch={setInputSearch} />
         <Raiting FilterRaiting={true} setValue={setValue} value={value} />
       </div>
@@ -36,6 +33,10 @@ const MovieApp = () => {
         addMovie={addMovie}
       />
       <Footer />
+    </Route>
+        <Route path="/AddTrailer" component={AddTrailer} />
+      </Switch>
+
     </div>
   );
 };
